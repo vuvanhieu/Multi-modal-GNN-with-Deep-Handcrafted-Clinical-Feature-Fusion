@@ -1,0 +1,31 @@
+Fold Evaluation Report
+========================================
+Fold Index     : 14
+Epoch          : 100
+Batch Size     : 32
+Best Epoch     : 100
+Best Val Acc   : 0.9641
+Accuracy       : 0.9654
+Precision      : 0.9651
+Recall         : 0.9654
+F1 Score       : 0.9651
+Macro F1       : 0.9651
+Macro Recall   : 0.9654
+Macro Precision: 0.9651
+Macro AUC      : 0.9988
+Time Taken (s) : 151.23
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        VASC       0.97      0.99      0.98      1140
+          DF       0.97      0.99      0.98      1140
+         BKL       0.97      0.96      0.96      1140
+       AKIEC       0.98      0.99      0.99      1140
+         BCC       0.95      0.95      0.95      1140
+          NV       0.93      0.88      0.91      1140
+         MEL       0.99      1.00      0.99      1140
+
+    accuracy                           0.97      7980
+   macro avg       0.97      0.97      0.97      7980
+weighted avg       0.97      0.97      0.97      7980
